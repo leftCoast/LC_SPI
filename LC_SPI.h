@@ -20,10 +20,10 @@
 
 // The six shared SPI pins..
 // These pins are best choice for Arduino MEGA
-//#define LC_CLK		52		// Clock				- WHITE WIRE 30AWG
-//#define LC_MISO	50		// Input data		- GREEN WIRE 30AWG
-//#define LC_MOSI	51		// Output data		- BLUE WIRE 30AWG
-//#define LC_DC		53		// Data/command	- YELLOW WIRE 30AWG
+// #define LC_CLK		52		// Clock				- WHITE WIRE 30AWG
+// #define LC_MISO	50		// Input data		- GREEN WIRE 30AWG
+// #define LC_MOSI	51		// Output data		- BLUE WIRE 30AWG
+// #define LC_DC		53		// Data/command	- YELLOW WIRE 30AWG
 
 
 // 5V  - RED WIRE 30AWG
