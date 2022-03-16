@@ -25,6 +25,14 @@
 // #define LC_MOSI	51		// Output data		- BLUE WIRE 30AWG
 // #define LC_DC		53		// Data/command	- YELLOW WIRE 30AWG
 
+// The six shared SPI pins..
+// These pins seem best for ESP32
+// #define LC_CLK		18		// Clock				- WHITE WIRE 30AWG
+// #define LC_MISO	19		// Input data		- GREEN WIRE 30AWG
+// #define LC_MOSI	23		// Output data		- BLUE WIRE 30AWG
+// #define LC_DC		2		// Data/command	- YELLOW WIRE 30AWG
+
+
 
 // 5V  - RED WIRE 30AWG
 // GND - BLACK WIRE 30AWG
