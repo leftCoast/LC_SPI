@@ -27,26 +27,33 @@
 
 // The six shared SPI pins..
 // These pins seem best for ESP32
-// #define LC_CLK		18		// Clock				- WHITE WIRE 30AWG
-// #define LC_MISO	19		// Input data		- GREEN WIRE 30AWG
-// #define LC_MOSI	23		// Output data		- BLUE WIRE 30AWG
-// #define LC_DC		2		// Data/command	- YELLOW WIRE 30AWG
+//#define LC_CLK	18		// Clock				- WHITE WIRE 30AWG
+//#define LC_MISO	19		// Input data		- GREEN WIRE 30AWG
+//#define LC_MOSI	23		// Output data		- BLUE WIRE 30AWG
+//#define LC_DC	2		// Data/command	- YELLOW WIRE 30AWG
 
-
-
-// 5V  - RED WIRE 30AWG
-// GND - BLACK WIRE 30AWG
-
-// These two are non-shared pins.
-// More of a serving suggestion than anything else.
-// CS  - RED WIRE 30AWG
-// RST - BLACK WIRE 30AWG
-
+// The six shared SPI pins..
 // This set is for Adafruit Feather MO #2995
 //#define LC_CLK 	24
 //#define LC_MOSI	23
 //#define LC_MISO	22
-//#define LC_DC		21   // Free to choose.
+//#define LC_DC	21   // Free to choose.
+
+// The six shared SPI pins..
+// These pins seem best for Rpi Pico on Wokwi
+//#define LC_CLK	18		// Clock				- WHITE WIRE 30AWG
+//#define LC_MISO	16		// Input data		- GREEN WIRE 30AWG
+//#define LC_MOSI	19		// Output data		- BLUE WIRE 30AWG
+//#define LC_DC	17		// Data/command	- YELLOW WIRE 30AWG
+
+
+// 5V  - RED WIRE		30AWG
+// GND - BLACK WIRE	30AWG
+
+// These two are non-shared pins.
+// More of a serving suggestion than anything else.
+// CS  - RED WIRE		30AWG
+// RST - BLACK WIRE	30AWG
 
 
 // Each device needs its own chip select pin defined.
