@@ -2,7 +2,7 @@
 #define LC_SPI_H
 
 // SPI setting choices are actually a function of the processor. Many have hardware
-// dedicated pins for this. So these are the pins we should be using. 
+// dedicated pins for this. Those are the pins we should be using. 
 //
 // You have a processor you would like to use in your project that has hardware SPI pins?
 // Feel free to add it here!
