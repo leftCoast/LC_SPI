@@ -22,7 +22,16 @@
 #define LC_DC		9		// Data/command	- YELLOW WIRE
 #endif
 
+
 #ifdef ARDUINO_TEENSY32
+#define LC_CLK		13		// Clock				- WHITE WIRE
+#define LC_MISO	12		// Input data		- GREEN WIRE
+#define LC_MOSI	11		// Output data		- BLUE WIRE
+#define LC_DC		9		// Data/command	- YELLOW WIRE
+#endif
+
+
+#ifdef ARDUINO_TEENSY40
 #define LC_CLK		13		// Clock				- WHITE WIRE
 #define LC_MISO	12		// Input data		- GREEN WIRE
 #define LC_MOSI	11		// Output data		- BLUE WIRE
